@@ -103,7 +103,7 @@ a {
 }
 /* Borsh page*/
 .borsh {
-    background-image: url(/images/borsh-backround.jpg);
+    background-image: url(images/borsh-backround.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -140,19 +140,19 @@ a {
     margin: 50px;
 }
 .blini {
-    background-image: url(/images/blini-background.jpg);
+    background-image: url(images/blini-background.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
 .pelmeni {
-    background-image: url(/images/pelmeni-background.jpg);
+    background-image: url(images/pelmeni-background.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
 .pirozki {
-   background-image: url(/images/pirozki-background.jpg);
+   background-image: url(images/pirozki-background.jpg);
    background-size: cover;
    background-repeat: no-repeat;
    background-attachment: fixed;
