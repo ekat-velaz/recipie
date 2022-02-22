@@ -101,3 +101,59 @@ a {
     flex-direction: column;
     justify-content: center;
 }
+/* Borsh page*/
+.borsh {
+    background-image: url(/images/borsh-backround.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+.rec {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.title {
+    font-size: 24px;
+    color:#342009;
+    background-color:#97510296;
+    width: 200px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 5px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.ingr-list {
+    background-color: #97510296;
+    width: 500px;
+    padding: 50px;
+    border-radius: 5px;
+    margin: 50px;
+}
+.steps-list {
+    background-color: #97510296;
+    width: 500px;
+    padding: 50px;
+    border-radius: 5px;
+    margin: 50px;
+}
+.blini {
+    background-image: url(/images/blini-background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.pelmeni {
+    background-image: url(/images/pelmeni-background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.pirozki {
+   background-image: url(/images/pirozki-background.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+}
