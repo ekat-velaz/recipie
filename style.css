@@ -1,0 +1,103 @@
+html,
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.main {
+    background-image: url(images/main.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+   
+   
+}
+* {
+    font-family: Helvetica, Verdana, Tahoma, sans-serif;
+}
+.navigation {
+    background-color: #975102;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo {
+    font-size: 24px;
+    color: #FEEEDC;
+    font-weight: bold;
+}
+.menue {
+    display: flex;
+    gap: 50px;
+    font-size: 20px;
+    color: #FEEEDC;
+    list-style: none;
+}
+.hero {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 200px;
+    width: 400px;
+    flex-wrap: wrap;
+    flex: 1 ;
+}
+.hero-header {
+    font-size: 48px;
+    color:#FEEEDC;
+    font-weight: bold;
+
+}
+.hero-text {
+    font-size: 32px;
+    color:#975102;
+}
+.footer {
+    background-color: #342009;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #D77E19;
+    font-size: 20px;
+    margin-top: auto;
+    padding: 10px;
+}
+.footer-menue {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+a {
+    text-decoration: none;
+    color: #FEEEDC;
+}
+/* For the recipies page */
+.recipies-page {
+    background-color: rgb(15, 7, 1);
+    display: flex;
+    flex-direction: column;
+}
+.main-img {
+    width: 300px;
+    height: 300px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.recipies {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex: 1 0 auto;
+    gap: 50px;
+    font-size: 24px;
+    flex-wrap: wrap;
+}
+.main-rec {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
